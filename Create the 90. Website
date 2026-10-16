@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE 90 | Football Prediction Challenge</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #07111f;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0d1b2a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00e676;
+        }
+
+        header h1 {
+            color: #00e676;
+            font-size: 36px;
+            letter-spacing: 4px;
+        }
+
+        header p {
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 15px;
+            background: #102438;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00e676;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 65px 20px;
+            background: linear-gradient(135deg, #07111f, #123c2b);
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero h2 span {
+            color: #00e676;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: 0 auto 25px;
+            color: #d0d7de;
+        }
+
+        .button {
+            display: inline-block;
+            background: #00e676;
+            color: #07111f;
+            padding: 14px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #00c853;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #00e676;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #102438;
+            padding: 22px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #24435b;
+        }
+
+        .card h3 {
+            color: #00e676;
+            margin-bottom: 10px;
+        }
+
+        .prizes {
+            width: 100%;
+            border-collapse: collapse;
+            background: #102438;
+        }
+
+        .prizes th,
+        .prizes td {
+            padding: 13px;
+            border: 1px solid #24435b;
+            text-align: center;
+        }
+
+        .prizes th {
+            background: #00e676;
+            color: #07111f;
+        }
+
+        .notice {
+            background: #102438;
+            padding: 20px;
+            border-left: 4px solid #00e676;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #0d1b2a;
+            color: #cbd5e1;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #00e676;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>THE 90</h1>
+        <p>FOOTBALL PREDICTION CHALLENGE</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#rules">How to Play</a>
+        <a href="#prizes">Prizes</a>
+        <a href="#register">Register</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <h2>Predict. <span>Win.</span> Repeat.</h2>
+
+        <p>
+            Think you understand football?
+            Join THE 90 Football Prediction Challenge,
+            make your predictions, build your winning streak
+            and aim for the ultimate prize.
+        </p>
+
+        <a class="button"
+           href="https://forms.gle/b7Krynt9yKsQkcZq5"
+           target="_blank">
+            REGISTER NOW
+        </a>
+    </div>
+
+    <section id="about">
+        <h2>ABOUT THE 90</h2>
+
+        <div class="notice">
+            THE 90 is a football prediction challenge where
+            contestants aim to build a winning streak through
+            eligible football predictions.
+
+            Reach a Safe Zone and choose whether to COLLECT
+            your prize or CONTINUE your journey.
+        </div>
+    </section>
+
+    <section id="rules">
+        <h2>HOW TO PLAY</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>01. Register</h3>
+                <p>
+                    Complete the registration form and pay
+                    the ₦1,000 registration fee.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>02. Get Your ID</h3>
+                <p>
+                    Submit your payment proof and receive
+                    your official contestant ID after confirmation.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>03. Make Predictions</h3>
+                <p>
+                    Submit your eligible football predictions
+                    according to the official contest rules.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>04. Reach Safe Zones</h3>
+                <p>
+                    At an eligible Safe Zone, choose COLLECT
+                    or CONTINUE according to the official rules.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="prizes">
+        <h2>SAFE ZONES & PRIZES</h2>
+
+        <table class="prizes">
+            <thead>
+                <tr>
+                    <th>Safe Zone</th>
+                    <th>Prize</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr><td>7 Wins</td><td>₦3,000</td></tr>
+                <tr><td>14 Wins</td><td>₦10,000</td></tr>
+                <tr><td>22 Wins</td><td>₦40,000</td></tr>
+                <tr><td>30 Wins</td><td>₦100,000</td></tr>
+                <tr><td>45 Wins</td><td>₦1,000,000</td></tr>
+                <tr><td>60 Wins</td><td>₦10,000,000</td></tr>
+                <tr><td>75 Wins</td><td>₦20,000,000</td></tr>
+                <tr><td>90 Wins</td><td>₦100,000,000</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="register">
+        <h2>READY TO TAKE THE CHALLENGE?</h2>
+
+        <div class="card">
+            <h3>Your Journey Starts Here!</h3>
+
+            <p>
+                Register today and become part of THE 90
+                Football Prediction Challenge.
+            </p>
+
+            <br>
+
+            <a class="button"
+               href="https://forms.gle/b7Krynt9yKsQkcZq5"
+               target="_blank">
+                JOIN THE 90
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 THE 90 Football Prediction Challenge</p>
+        <p>Predict. Win. Repeat.</p>
+    </footer>
+
+</body>
+</html>
